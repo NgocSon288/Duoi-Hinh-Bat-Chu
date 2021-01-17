@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game.Views.CauHoiPage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundImageSource="backgroundCauDo.jpg">
+    <ContentPage.Content>
+        <Grid> 
+            <StackLayout Margin="0">
+                <Grid>
+                    <StackLayout  Orientation="Horizontal" 
+                              BackgroundColor="Transparent">
+                        <ImageButton Source="iconPrevious.png" 
+                                 WidthRequest="50"
+                                 HeightRequest="50"  
+                                 BackgroundColor="Transparent"
+                                 Clicked="ImageButton_Clicked"
+                                 HorizontalOptions="Start">
+
+                        </ImageButton>
+
+                        <Grid Margin="30,0,0,0">
+                            <Image Source="level.png" 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Margin="40,10,10,10"
+                               HeightRequest="80">
+                            </Image>
+                            <Label x:Name="lblLevel"
+                                   Text="{Binding ID}"
+                                   FontSize="40"
+                                   Margin="40,10,10,10"
+                                   FontAttributes="Bold"
+                                   TextColor="#470fa0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                >
+
+                            </Label>
+                        </Grid>
+
+                        <Grid Margin="10,0,0,0">
+                            <Image Source="ruby.png" 
+                                   HorizontalOptions="End" 
+                                   Margin="50,0,0,0"
+                                   WidthRequest="30">
+
+                            </Image>
+                            <Label x:Name="lblRuby"  
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="End"
+                                   FontSize="30"
+                                   FontAttributes="Bold"
+                                   TextColor="#6a95d4"   
+                                   VerticalOptions="Center"
+                                   Margin="20,0,40,0"
+                                   HorizontalOptions="EndAndExpand">
+                            </Label>
+                        </Grid>
+
+                    </StackLayout>
+
+                </Grid>
+
+                <Image Source="{Binding Hinh}"   
+                   HeightRequest="270" >
+
+                </Image>
+
+                <StackLayout>
+                    <StackLayout.Resources>
+                        <Style TargetType="Button" BasedOn="{x:StaticResource btnStyleChar1}">
+                            
+                        </Style>
+                    </StackLayout.Resources>
+                    <StackLayout Orientation="Horizontal"
+                             x:Name="stackKetQua1" 
+                             Margin="0,10,0,0"
+                             HorizontalOptions="Center">
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"
+                             x:Name="stackKetQua2" 
+                             Margin="0,0,0,0"
+                             HorizontalOptions="Center">
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout VerticalOptions="End"
+                         Margin="0,0,0,20">
+                <StackLayout.Resources>
+                    <Style TargetType="Button" BasedOn="{x:StaticResource btnStyleChar2}">
+                    </Style>
+                </StackLayout.Resources>
+                <Grid> 
+                    <ImageButton Source="iconGoiY.png"
+                                 WidthRequest="45"
+                                 BackgroundColor="Transparent"
+                                 VerticalOptions="End"
+                                 HorizontalOptions="End"
+                                 Margin="0,0,10,0"
+                                 Clicked="ImageButton_Clicked_1">
+                        
+                    </ImageButton>
+                </Grid>
+                <Grid>
+                    <StackLayout x:Name="stackKyTu1"
+                                 Orientation="Horizontal" 
+                                 VerticalOptions="End"
+                                 HorizontalOptions="Center"
+                                 > 
+                    </StackLayout>
+                </Grid>
+
+                <Grid> 
+                    <StackLayout x:Name="stackKyTu2"
+                                 Orientation="Horizontal" 
+                                 VerticalOptions="End"
+                                 HorizontalOptions="Center"
+                                 > 
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ESajCmWAaYr4A6rTYuZ8j1GIkJTmuHLLSrRGRHajdC7D7CPnFKfHgqWwxO8Oz79Jnpsjmt7ktcJmbp4fPTjOfA==",
+  "success": true,
+  "projectFilePath": "C:\\Mobile\\Game\\Game\\Game.iOS\\Game.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18521\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.12\\com.airbnb.ios.lottie.2.5.12.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.6\\com.airbnb.xamarin.forms.lottie.4.0.6.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
+  ],
+  "logs": []
+}

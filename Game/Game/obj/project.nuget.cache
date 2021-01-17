@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "WPG3cHSf8vG/pwyv8pKQGKKvC9yQu6BY6kySk14tj+IjmRzW4af30WqaW7HTyFkMRNh1q3VvL0nhJ/DAIlX1cA==",
+  "success": true,
+  "projectFilePath": "C:\\Mobile\\Game\\Game\\Game\\Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18521\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.6\\com.airbnb.xamarin.forms.lottie.4.0.6.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\18521\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
+  ],
+  "logs": []
+}

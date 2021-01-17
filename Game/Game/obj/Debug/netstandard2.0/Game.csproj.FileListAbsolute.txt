@@ -1,0 +1,16 @@
+C:\Mobile\Game\Game\Game\bin\Debug\netstandard2.0\Game.deps.json
+C:\Mobile\Game\Game\Game\bin\Debug\netstandard2.0\Game.dll
+C:\Mobile\Game\Game\Game\bin\Debug\netstandard2.0\ref\Game.dll
+C:\Mobile\Game\Game\Game\bin\Debug\netstandard2.0\Game.pdb
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.csprojAssemblyReference.cache
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfoInputs.cache
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfo.cs
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.dll
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\ref\Game.dll
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.pdb
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Views\CauHoiPage.xaml.g.cs
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Views\KetQuaPage.xaml.g.cs
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\Game.csproj.CoreCompileInputs.cache
+C:\Mobile\Game\Game\Game\obj\Debug\netstandard2.0\XamlC.stamp

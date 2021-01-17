@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game.MainPage"
+             BackgroundImageSource="TrangChu.png"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Entry Placeholder="Tên người chơi" 
+               x:Name="txtTen" 
+               Grid.Row="1"
+               Margin="10,200,10,0"
+               FontSize="30"
+               TextColor="#00009a"
+               FontAttributes="Bold"
+               PlaceholderColor="#6262e2"
+               FontFamily="Calibri"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"               
+               >
+        </Entry>
+
+        <Button Text="GAME MỚI" 
+                Grid.Row="2" 
+                ImageSource="play-icon.png" 
+                Padding="30,10,30,10" 
+                Margin="0,10,0,0"
+                Clicked="Button_Clicked" 
+                BackgroundColor="#285f17"
+                x:Name="btnGameMoi"
+                Style="{x:StaticResource btnRedirect}"
+                >            
+        </Button>
+
+        <Button Text="TIẾP TỤC" 
+                Grid.Row="3"
+                ImageSource="play-icon.png" 
+                BackgroundColor="#3c0f94"
+                Padding="40,10,40,10"
+                Margin="0,10,0,0"
+                Clicked="Button_Clicked"
+                x:Name="btnTiepTuc"
+                Style="{x:StaticResource btnRedirect}"
+                >
+        </Button>
+
+        <Button Text="THOÁT" 
+                Grid.Row="4"
+                ImageSource="play-icon.png" 
+                BackgroundColor="OrangeRed"
+                Padding="55,10,55,10"
+                Margin="0,10,0,0"
+                Clicked="btnThoatGame_Clicked"                
+                x:Name="btnThoatGame"
+                Style="{x:StaticResource btnRedirect}"
+                >
+        </Button>
+
+
+    </Grid>
+
+</ContentPage>
